@@ -2,7 +2,7 @@ macro_en_switch: macro_en_switch{
 compatible = "zmk,behavior-macro";
 label = "macro_en_switch";
 #binding-cells = <0>;
-bindings = <&tog 0>, <&mt LEFT_WIN SPACE>;
+bindings = <&tog 4>, <&mt LEFT_WIN SPACE>;
 };
 macro_is_switch: macro_is_switch{
 compatible = "zmk,behavior-macro";
